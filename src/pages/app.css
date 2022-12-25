@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.home-container {
+  background-image: url(../Login\ Form.png);
+  background-repeat: no-repeat;
+  height: 100vh;
+}

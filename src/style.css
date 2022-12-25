@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Nabla&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+:root {
+  --transition: all 0.7s linear;
+}
+
+.container {
+  display: flex;
+}
+.sidebar {
+  background-color: #0c2135;
+  color: #ffffff;
+  height: 100vh;
+  width: 240px;
+}
+.top-section {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+main {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.logo {
+  display: flex;
+  font-family: "Nabla", cursive;
+  transition: var(--transition);
+}
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.bars {
+  margin-top: 10px;
+  margin-left: 14px;
+  font-size: 25px;
+  color: orange;
+  transition: var(--transition);
+}
+
+.bars:hover {
+  transform: rotate(90deg);
+  color: #22d3ee;
+}
+
+.link {
+  display: flex;
+  padding: 20px 12px;
+  transition: var(--transition);
+}
+
+.link:hover {
+  background-color: #0ba5e9;
+  padding-left: 20px;
+}
+
+.icons {
+  color: #ffffff;
+  padding-right: 10px;
+  transition: var(--transition);
+  font-size: 18px;
+}
+.icons:hover {
+  color: #a5f3fc;
+}
+.link-text {
+  font-family: "Martian Mono", monospace;
+  color: #ffffff;
+  font-size: 15px;
+}
